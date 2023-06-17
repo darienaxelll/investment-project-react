@@ -1,4 +1,9 @@
+import './Form.css';
+
 const Form = () => {
+
+
+
   return (
     <form className="form">
       <div className="input-group">
