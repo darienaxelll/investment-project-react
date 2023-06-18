@@ -1,8 +1,6 @@
 import './Table.css';
 
 const Table = () => {
-  console.log("Hello Stranger!");
-
   return (
     <table className="result">
       <thead>
