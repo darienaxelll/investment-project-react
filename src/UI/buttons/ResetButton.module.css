@@ -1,0 +1,16 @@
+.buttonAlt {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    background: transparent;
+    color: #c2e9e0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: linear-gradient(180deg, #1b5346, #113c32);
+  }
+  
+  .buttonAlt:hover {
+    background: transparent;
+    color: #91e1d0;
+  }

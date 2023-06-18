@@ -1,9 +1,9 @@
-import './Form.css';
+import CalculateButton from "../UI/buttons/CalculateButton";
+import ResetButton from "../UI/buttons/ResetButton";
+
+import "./Form.css";
 
 const Form = () => {
-
-
-
   return (
     <form className="form">
       <div className="input-group">
@@ -29,12 +29,8 @@ const Form = () => {
         </p>
       </div>
       <p className="actions">
-        <button type="reset" className="buttonAlt">
-          Reset
-        </button>
-        <button type="submit" className="button">
-          Calculate
-        </button>
+        <ResetButton>Reset</ResetButton>
+        <CalculateButton>Calculate</CalculateButton>
       </p>
     </form>
   );
